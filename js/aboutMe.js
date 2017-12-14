@@ -2,10 +2,10 @@ $(document).ready(function(){
   var timesheetArray = [];
   
   new Timesheet('timesheet', 2017, 2017,[
-  ['08/2017','08/2017', '9:00a.m - Woke up feeling refreshed after getting a full 30 mins of sleep', 'lorem'],
-  ['08/2017','08/2017', '9:30a.m - Had a massive bowl of Captain Crunch and finished the entire box', 'ipsum'],
-  ['08/2017','08/2017', '10:00a.m -Made some plans to go out later', 'lorem'],
-  ['08/2017', '08/2017', '10:15a.m - Looked outside at the beautiful weather and thought to myself "this is the life"', 'dolor'],
+  ['08/2017','08/2017', '9:00a.m - Woke up to the lovely sounds of the birds chirping in the morning', 'lorem'],
+  ['08/2017','08/2017', '9:30a.m - Had a massive bowl of Captain Crunch and finished the entire box. "This is going to be a great day I thought"', 'ipsum'],
+  ['08/2017','08/2017', '10:00a.m - Began marathoning Stranger Things', 'lorem'],
+  ['08/2017', '08/2017', '10:15a.m - Looked outside at the beautiful weather and thought to myself "this is the life" as I sat nice and cool in the nice A/C', 'dolor'],
   ['08/2017', '08/2017', '10:45a.m - Decided to take a random selfie because I was feeling good', 'default'],
   ['08/2017', '08/2017', '12:00p.m - Got a phone call to come in to work....Why did I pick up the phone?', 'sit'],
   ['08/2017', '08/2017', '2:00p.m - Driving to work wondering what I am doing with my life', 'ipsum'],
@@ -16,8 +16,8 @@ $(document).ready(function(){
   ]);
 
   $('.addEvent').on('click', function() {
-    timesheetArray.push(['08/2017','08/2017', $('#timesheetMessage').val(), 'lorem']);
+    timesheetArray.push(['12/2017','12/2017', $('#timesheetMessage').val(), 'lorem']);
 
-    new Timesheet('userTimesheet', 2017, 2017, timesheetArray);
+    new Timesheet('userTimesheet', 2017, 2020, timesheetArray);
   });
 });
