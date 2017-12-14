@@ -10,9 +10,9 @@ $(document).ready(function(){
   ['08/2017', '08/2017', '12:00p.m - Got a phone call to come in to work....Why did I pick up the phone?', 'sit'],
   ['08/2017', '08/2017', '2:00p.m - Driving to work wondering what I am doing with my life', 'ipsum'],
   ['08/2017', '08/2017', '4:00p.m - Watching people have fun outside', 'sit'],
-  ['08/2017', '08/2017', '6:00p.m - Lunch time...The best part of my day at work', 'lorem'],
+  ['08/2017', '08/2017', '6:00p.m - Lunch time...The best part of work', 'lorem'],
   ['08/2017', '08/2017', '9:45p.m - Glaring at the clock..Move faster!!!', 'dolor'],
-  ['08/2017', '08/2017', '11:00p.m - Sleep', 'sit']
+  ['08/2017', '08/2017', '11:00p.m - Slept my sorrows away', 'sit']
   ]);
 
   $('.addEvent').on('click', function() {
